@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+}
+#body-header{
+    margin-top: -60px;
+    height: 65vh;
+    opacity: 0.9;
+    background-image: url("./pictures/apple.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 10vh;
+
+    
+}
+
+.horizontal-list{
+    list-style: none;
+    padding: 0px;
+    margin-left: 50px;
+    text-align: center;
+    
+    
+    
+
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 0 8px;
+    
+    
+    
+}
+
+.horizontal-list li a{
+    
+    
+    padding: 20px;
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.horizontal-list li a:hover{
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+#header-name{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+#social-handle{
+    text-align: center;
+    margin-top: -3vh;
+      
+}
+#social-handle a img{
+    padding: 0px;
+    height: 20px;
+    width: 20px;
+}
+
+#social-handle a img:hover{
+    color: white;
+    border-bottom: 1px solid rgb(34, 27, 27);
+
+}
+#about{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+#my-img{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -14vh;
+    
+    
+
+}
+#my-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+#about-me{
+    margin: 40px 120px 120px 120px;
+    font-size: 20px;
+    color: gray;
+    text-decoration: #2857a4;
+}
