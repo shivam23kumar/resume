@@ -134,6 +134,9 @@ section:nth-child(2n+1){
 }
 
 /*skills-display*/
+#skills h1{
+    color: black;
+}
 .skills-display{
     width: 70%;
     margin-top: 20px;
@@ -422,4 +425,8 @@ form .button{
     height: 0.5rem;
     background-color: red;
     z-index: 1;
+}
+
+#contact h1{
+    color: black;
 }
