@@ -99,7 +99,9 @@ body{
 
 
 /* flex */
-
+#skills{
+    height: fit-content;
+}
 section{
     width: 100%;
     height: 75vh;
@@ -273,13 +275,16 @@ height:45px;
 
 form .button{
     border-color: transparent;
-    background:transparent;
+    /* background:transparent; */
+    background-color: black;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     letter-spacing: 1px;
     height: 50px;
     margin-left: 250px;
+    border-radius:10%;
+    height: 30px;
     
 }
 form .button{
@@ -330,6 +335,9 @@ form .button{
 }
 #timeline-box:nth-child(2n){
     left: 53%;
+}
+#experience{
+    height: fit-content;
 }
 #education{
     height: fit-content;
@@ -431,4 +439,98 @@ form .button{
 
 #contact h1{
     color: black;
+}
+
+
+/* responsive design */
+
+/* workex */
+
+@media screen and (max-width:768px) {
+    #timeline-divider{
+        left: 8%;
+    }
+    #timeline-box{
+        left: 14% !important;
+        width: 80%;
+    }
+    #timeline-box:nth-child(2n)::after{
+        left: -10%;
+    }
+    #timeline-box:nth-child(2n+1)::after{
+        left: -10%;
+    }
+}
+/* education */
+@media screen and (max-width:768px) {
+    #timeline-divider{
+        left: 8%;
+    }
+    #timeline-box1{
+        left: 14% !important;
+        width: 80%;
+    }
+    #timeline-box1:nth-child(2n)::after{
+        left: -10%;
+    }
+    #timeline-box1:nth-child(2n+1)::after{
+        left: -10%;
+    }
+}
+/* contact */
+@media screen and (max-width:768px){
+    .right{
+        display:none;
+    }
+    .form-control{
+        width: fit-content;
+        margin-left: 150px;
+    }
+    .button{
+        margin-right: 300px;
+        position: relative;
+    }
+}
+
+/* skills */
+
+@media screen and (max-width:768px) {
+    .skill-progress{
+        margin: 20px;
+    }
+    .skills-displays3{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+/* header */
+@media screen and (max-width:768px){
+    .horizontal-list{
+        margin: 60px;
+        padding-top: 50px;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    #header-name {
+        font-size: 50px;
+        height: fit-content;
+    }
+    #social-handle{
+        font-size: 50px;
+    }
+}
+
+/* aboutme */
+@media screen and (max-width:768px){
+    #about-me{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:768px){
+   #my-img{
+       margin-top: 12vh;
+   }
 }
