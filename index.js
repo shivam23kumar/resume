@@ -12,12 +12,3 @@ for(var i=0; i<navMenuAnchorTags.length; i++){
     });
 }
 
-function scroolVertically(targetSection){
-    var targetSectionCoordinates = targetSection.getBoundingClientRect();
-    if(targetSectionCoordinates.top <= 50){
-        clearInterval(interval);
-        return;
-    }
-    
-    window.scrollBy(0,50);
-}
