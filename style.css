@@ -181,7 +181,7 @@ section:nth-child(2n+1){
 }
 
 .seventy-five{
-    width: 35%;
+    width: 75%;
     height: inherit;
     background-color: green;
     border-radius: 0.8rem;
@@ -195,7 +195,7 @@ section:nth-child(2n+1){
 }
 
 .sixty-five{
-    width: 65%;
+    width: 35%;
     height: inherit;
     background-color: yellowgreen;
     border-radius: 0.8rem;
