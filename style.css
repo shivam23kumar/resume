@@ -33,8 +33,6 @@ body{
 }
 
 .horizontal-list li a{
-    
-    
     padding: 20px;
     color:white;
     text-decoration: none;
@@ -241,7 +239,11 @@ section:nth-child(2n+1){
 
 
 #contact{
-    background-image: linear-gradient(to right, rgb(47, 137, 255),rgb(6, 6, 31));
+    background: #3A3A3A;
+    background: -webkit-linear-gradient(right, #3A3A3A, #0C0C0C);
+    background: -moz-linear-gradient(right, #3A3A3A, #0C0C0C);
+    background: linear-gradient(to left, #3A3A3A, #0C0C0C);
+    /* background-image: linear-gradient(to right, rgb(47, 137, 255),rgb(6, 6, 31)); */
 }
 
 #contact-displays{
@@ -299,6 +301,7 @@ form .button{
 
 .contact-display .right{
     margin-left: 70px;
+    color:white;
 }
 
 
@@ -322,7 +325,7 @@ form .button{
 }
 
 #timeline-box h2{
-    color: blue;
+    color: #000080;
 }
 #timeline-box h3{
     color:black;
@@ -359,7 +362,7 @@ form .button{
     color: black;
 }
 #timeline-box1 h2{
-    color: blue;
+    color:#000080;
    
 }
 #timeline-box1 h3{
@@ -403,7 +406,7 @@ form .button{
     position: absolute;
     height: 75%;
     width: 0;
-    border: 3px dashed skyblue;
+    border: 3px dashed gray;
     top: 10%;
     left: 50%;
 }
@@ -439,7 +442,7 @@ form .button{
 }
 
 #contact h1{
-    color: black;
+    color: white;
 }
 
 
@@ -478,7 +481,7 @@ form .button{
         left: -10%;
     }
 }
-/* contact */
+/*  */
 @media screen and (max-width:768px){
     .right{
         display:none;
