@@ -515,7 +515,9 @@ form .button{
         margin: 60px;
         padding-top: 50px;
         font-size: 30px;
-        text-decoration: underline;
+        display:flex;
+        
+        //text-decoration: underline;
     }
     #header-name {
         font-size: 50px;
