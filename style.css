@@ -520,6 +520,7 @@ form .button{
     #header-name {
         font-size: 50px;
         height: fit-content;
+        margin-top:-5px
     }
     #social-handle{
         font-size: 50px;
