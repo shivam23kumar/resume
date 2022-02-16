@@ -516,7 +516,7 @@ form .button{
         padding-top: 50px;
         font-size: 30px;
         display:flex;
-        flex-direction:row;
+        flex-direction:column;
 
         //text-decoration: underline;
     }
@@ -539,6 +539,6 @@ form .button{
 
 @media screen and (max-width:768px){
    #my-img{
-       margin-top: 12vh;
+       margin-top: -12vh;
    }
 }
