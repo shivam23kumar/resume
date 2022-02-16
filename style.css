@@ -19,9 +19,7 @@ body{
     padding: 0px;
     margin-left: 50px;
     text-align: center;
-    
-    
-    
+    text-decoration:none;
 
 }
 .horizontal-list li{
@@ -518,7 +516,6 @@ form .button{
         display:flex;
         flex-direction:column;
 
-        //text-decoration: underline;
     }
     #header-name {
         font-size: 50px;
