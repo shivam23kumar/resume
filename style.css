@@ -514,9 +514,10 @@ form .button{
     .horizontal-list{
         margin: 60px;
         padding-top: 50px;
-        font-size: 30px;
+        //font-size: 30px;
         display:flex;
         
+
         //text-decoration: underline;
     }
     #header-name {
