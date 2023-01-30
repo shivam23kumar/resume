@@ -133,6 +133,10 @@ section:nth-child(2n+1){
     color: gray;
 }
 
+/*portfolio*/
+#portfolio h1{
+    color:black;
+}
 /*skills-display*/
 #skills h1{
     color: black;
@@ -173,7 +177,7 @@ section:nth-child(2n+1){
 }
 
 .ninety{
-    width: 80%;
+    width: 60%;
     height: inherit;
     background-color:orange;
     border-radius: 0.8rem;
