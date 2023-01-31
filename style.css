@@ -176,7 +176,7 @@ section:nth-child(2n+1){
     border-radius: 0.8rem;
 }
 
-.ninety{
+.sixty{
     width: 60%;
     height: inherit;
     background-color:orange;
@@ -354,6 +354,7 @@ form .button{
     width: 75%;
     
 }
+
 #timeline-box1{
     position: relative;
     margin: 5px;
@@ -361,6 +362,7 @@ form .button{
     left: 5%;
     min-height: 150px;
 }
+
 #education h1{
     color: black;
 }
@@ -382,6 +384,7 @@ form .button{
 #timeline-box1:nth-child(2n){
     left: 53%;
 }
+
 
 #timeline-box:nth-child(2n)::after{
     content: '';
@@ -444,6 +447,7 @@ form .button{
     z-index: 1;
 }
 
+
 #contact h1{
     color: white;
 }
@@ -484,20 +488,8 @@ form .button{
         left: -10%;
     }
 }
-/*  */
-@media screen and (max-width:768px){
-    .right{
-        display:none;
-    }
-    .form-control{
-        width: fit-content;
-        margin-left: 150px;
-    }
-    .button{
-        margin-right: 300px;
-        position: relative;
-    }
-}
+/* portfolio */
+
 
 /* skills */
 
