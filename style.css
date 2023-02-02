@@ -546,12 +546,6 @@ form .button{
     }
     .right{
         display:none;
-        width:40%;
-    }
-    .left{
-        display:flex;
-        flex-wrap:wrap;
-        justify-content:space-between;
     }
 }
 
