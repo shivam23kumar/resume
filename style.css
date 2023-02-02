@@ -540,13 +540,13 @@ form .button{
 
 @media only screen and (max-width:768px){
     .contact-display{
-        width:100%
         display:flex;
         flex-wrap:wrap;
         justify-content: center;
     }
     .right{
         display:none;
+        width:40%;
     }
     .left{
         display:flex;
