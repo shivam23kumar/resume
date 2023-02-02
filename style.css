@@ -457,7 +457,7 @@ form .button{
 
 /* workex */
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:550px) {
     #timeline-divider{
         left: 8%;
     }
@@ -473,7 +473,7 @@ form .button{
     }
 }
 /* education */
-@media screen and (max-width:768px) {
+@media screen and (max-width:550px) {
     #timeline-divider{
         left: 8%;
     }
@@ -493,7 +493,7 @@ form .button{
 
 /* skills */
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:550px) {
     .skill-progress{
         margin: 20px;
     }
@@ -505,7 +505,7 @@ form .button{
 }
 
 /* header */
-@media screen and (max-width:768px){
+@media screen and (max-width:550px){
     .horizontal-list{
         margin: 60px;
         padding-top: 50px;
@@ -525,19 +525,19 @@ form .button{
 }
 
 /* aboutme */
-@media screen and (max-width:768px){
+@media screen and (max-width:550px){
     #about-me{
         width: 80%;
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:550px){
    #my-img{
        margin-top: 8vh;
    }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:550px){
     .contact-display{
         display:flex;
         flex-wrap:wrap;
