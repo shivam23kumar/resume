@@ -497,10 +497,10 @@ form .button{
     .skill-progress{
         margin: 20px;
     }
-    .skills-displays3{
+    .skills-display{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
     }
 }
 
@@ -535,4 +535,15 @@ form .button{
    #my-img{
        margin-top: 8vh;
    }
+}
+
+@media screen and (max-width:768px){
+    .contact-display{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    .right{
+        display:none;
+    }
 }
