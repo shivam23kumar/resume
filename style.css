@@ -501,6 +501,7 @@ form .button{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        //overflow-x:hidden;
     }
 }
 
@@ -539,13 +540,43 @@ form .button{
 
 @media only screen and (max-width:768px){
     .contact-display{
-        width:80%;
         display:flex;
         flex-wrap:wrap;
         justify-content: center;
     }
     .right{
         display:none;
+        width:40%;
     }
-    
+    .left{
+        width:80%;
+    }
+}
+
+@media only screen and (max-width:600px){
+    #about{
+        width:100%;
+    }
+    #skills{
+        width:100%;
+    }
+    #experience{
+        width:100%;
+    }
+    #education{
+        width:100%;
+    }
+    #portfolio{
+        width:100%;
+    }
+    #contact{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:768px){
+    main{
+        overflow-x:hidden;
+    }
+
 }
