@@ -546,7 +546,7 @@ form .button{
     }
     .right{
         display:none;
-        width:40%;
+        //width:40%;
     }
     .left{
         display:flex;
@@ -555,3 +555,10 @@ form .button{
     }
 }
 
+
+@media screen and (max-width:768px){
+    main{
+        overflow-x:hidden;
+    }
+
+}
