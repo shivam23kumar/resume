@@ -41,19 +41,6 @@ body{
     border-bottom: 1px solid white;
 }
 
-.hamburger{
-    display: none;
-    cursor: pointer;
-}
-.bar{
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    background-color: white;
-}
 
 #header-name{
     text-align: center;
@@ -578,34 +565,3 @@ form .button{
 
 
 
-@media(max-width:1024px){
-    .hamburger{
-      display: block;
-    }
-   .hamburger.active .bar:nth-child(2){
-      opacity: 0;
-    }
-   .hamburger.active .bar:nth-child(1){
-      transform: translateY(8px) rotate(45deg);
-    }
-   .hamburger.active .bar:nth-child(3){
-      transform: translateY(-8px) rotate(-45deg);
-    }
-   .horizontal-list{
-      position: fixed;
-      left: -100%;
-      top: 70px;
-      gap: 0;
-      flex-direction: column;
-      background-color: #262626;
-      width: 100%;
-      text-align: center;
-      transition: 0.3s;
-    }
-   .nav-item{
-      margin: 16px 0;
-    }
-   .horizontal-list.active{
-      left: 0;
-    }
-  }
