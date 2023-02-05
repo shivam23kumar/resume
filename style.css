@@ -13,7 +13,6 @@ body{
 
     
 }
-
 .horizontal-list{
     list-style: none;
     padding: 0px;
@@ -29,6 +28,20 @@ body{
     
     
 }
+.hamburger{
+    display:none;
+    cursor:pointer;
+}
+
+.bar{
+    display:block;
+    width:25px;
+    height:3px;
+    margin:5px 0;
+    transition:all 0.3s ease;
+    background-color:black;
+}
+
 
 .horizontal-list li a{
     padding: 20px;

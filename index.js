@@ -76,14 +76,3 @@ fetch(scriptURL, { method: 'POST', body: new FormData(form)})
     .catch(error => console.error('Error!', error.message))
 })
 
-
-hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    horizontal-list.classList.toggle("active");
-  })
-
-
-document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
-hamburger.classList.remove("active");
-horizontal-list.classList.remove("active");
-}))
