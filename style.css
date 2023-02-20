@@ -623,6 +623,9 @@ form .button{
     .titlelink{
         margin:20px;
     }
+    #contact-form{
+        width:50%;
+    }
 }
 
 
