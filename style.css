@@ -623,8 +623,12 @@ form .button{
     .titlelink{
         margin:20px;
     }
-    #contact-form{
-        width:50%;
+    .form-control{
+        padding: 0 15%;
+    }
+    .button{
+        display:flex;
+        align-items:center;
     }
 }
 
