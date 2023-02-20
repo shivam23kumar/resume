@@ -626,10 +626,7 @@ form .button{
     .form-control{
         padding: 0 15%;
     }
-    .button{
-        display:flex;
-        align-items:center;
-    }
+    
 }
 
 
