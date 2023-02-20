@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    overflow-x:hidden;
 }
 #body-header{
     margin-top: -60px;
@@ -13,18 +14,19 @@ body{
 
     
 }
+
 .horizontal-list{
     list-style: none;
     padding: 0px;
     margin-left: 50px;
     text-align: center;
-    text-decoration:none;
+    
 
 }
 .horizontal-list li{
     display: inline-block;
     margin: 0 8px;
-    
+    text-decoration:none;
     
     
 }
@@ -51,7 +53,7 @@ body{
 }
 .horizontal-list li a:hover{
     color: white;
-    border-bottom: 1px solid white;
+   
 }
 
 
@@ -111,7 +113,8 @@ body{
 
 /* flex */
 #skills{
-    height: fit-content;
+    height: auto;
+    padding:20px;
 }
 section{
     width: 100%;
@@ -186,41 +189,41 @@ section:nth-child(2n+1){
 .eighty-five{
     width: 85%;
     height: inherit;
-    background-color: blue;
+    background-color: 	#6497b1;;
     border-radius: 0.8rem;
 }
 
 .sixty{
     width: 60%;
     height: inherit;
-    background-color:orange;
+    background-color:	#6497b1;
     border-radius: 0.8rem;
 }
 
 .seventy-five{
     width: 75%;
     height: inherit;
-    background-color: green;
+    background-color:	#6497b1;
     border-radius: 0.8rem;
 }
 
 .seventy-one{
     width: 75%;
     height: inherit;
-    background-color: violet;
+    background-color:	#6497b1;
     border-radius: 0.8rem;
 }
 
 .sixty-five{
     width: 35%;
     height: inherit;
-    background-color: yellowgreen;
+    background-color:	#6497b1;
     border-radius: 0.8rem;
 }
 .forty{
     width: 50%;
     height: inherit;
-    background-color: skyblue;
+    background-color: 	#6497b1;
     border-radius: 0.8rem;
 }
 
@@ -244,13 +247,13 @@ section:nth-child(2n+1){
 .sixty-four{
     width: 65%;
     height: inherit;
-    background-color: rgb(153, 120, 10);
+    background-color: 	#6497b1;
     border-radius: 0.8rem;
 }
 .fifty{
     width: 50%;
     height: inherit;
-    background-color: brown;
+    background-color: 	#6497b1;
     border-radius: 0.8rem;
 }
 
@@ -466,7 +469,39 @@ form .button{
     color: white;
 }
 
+.portfolio_time{
+    width:100%;
+    max-width:1024px;
+    display:flex;
+    justify-content:space-between;
+}
+.imgtab{
+    width:250px;
+    height:250px;
+    border:2px solid black;
+    border-radius:10px;
+}
 
+.titlelink{
+    margin-top:10px;
+    display:flex;
+    justify-content:center;
+    color:black;
+    font-weight:1000;
+    font-size:20px;
+}
+.titlelink>button{
+    margin-left:5px;
+    background-color:black;
+    font-weight:300;
+    border-radius:10px;
+    cursor:pointer;
+
+}
+.anchor{
+    text-decoration:none;
+    color:white;
+}
 /* responsive design */
 
 /* workex */
@@ -557,6 +592,7 @@ form .button{
         display:flex;
         flex-wrap:wrap;
         justify-content: center;
+
     }
     .right{
         display:none;
@@ -566,6 +602,9 @@ form .button{
         width: 100%;
         padding:30px 30px;
     }
+    #contact{
+        height:auto;
+    }
 }
 
 
@@ -573,7 +612,17 @@ form .button{
     main{
         overflow-x:hidden;
     }
-
+    .portfolio_time{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    #portfolio{
+        height:auto;
+    }
+    .titlelink{
+        margin:20px;
+    }
 }
 
 
