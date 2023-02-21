@@ -13,128 +13,102 @@ body{
     font-size: 10vh;
     
 }
-
-
-/* .hamburger{
-    display:hidden;
-}*/
-
- .horizontal-list{
-    display:flex;
-    justify-content:space-between;
-}
-.horizontal-list li{
-    display: inline-block;
-    margin: 0 8px;
-    text-decoration:none;    
-}
-.horizontal-list li a{
-    padding: 20px;
-    color:white;
-    text-decoration: none;
-    font-size: 30px;
+.header{
+    border-bottom: 1px solid #E2E8F0;
 }
 
-/*
-.navbar
-{
-  position:absolute;
-  width:100%;
-  padding:50px;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-}
-.navbar .logo
-{
-  font-size:2em;
-  font-weight:bold;
-}
-.navbar .nav-links ul
-{
-  display:flex;
-}
-.navbar .nav-links ul li
-{
-  margin:0 25px;
-}
-.navbar .nav-links ul li.active a
-{
-  color:#ed3c57;
-  font-weight:600;
-}
-.navbar a 
-{
-  color:white;
-}
-.navbar .menu-hamburger
-{
-  display:none;
-  color:white;
-  position:absolute;
-  top:50px;
-  right:50px;
-  font-size:35px;
-  cursor:pointer;
-}
-
-@media screen and (max-width:900px)
-{
-  .navbar
-  {
-    padding:0;
-  }
-  .navbar .logo
-  {
-    display:none;
-  }
-  .navbar .menu-hamburger
-  {
-    display:block;
-  }
-  .nav-links
-  {
-    top:0;
-    left:-100%;
-    position:absolute;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    background-color:rgba(0,0,0,0.5);
-    backdrop-filter:blur(8px);
-    width:100%;
-    height:100vh;
-    transition: left 0.5s ease;
+.navbar {
+    display: flex;
+    justify-content: space-between;
     
-  }
-  .nav-links.mobile-menu
-  {
-  left:0;
-    
-  }
-
-  .nav-links ul
-  {
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-  }
-  .navbar .nav-links ul li
-  {
-  margin:25px 0;
-  font-size:1.2em;
-  }
-  .menu-hamburger
-  {
-    display:block;
-  }
-} */
-#header-name{
-    text-align: center;
-    color: white;
-    margin-top: 100px;
-    margin-bottom: 0px;
 }
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 2rem;
+    text-decoration:hidden;
+
+}
+
+.nav-link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #475569;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+        z-index:3;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 1.0rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    #header-name{
+        display:flex;
+        justify-content:center;
+        padding-top:10px;
+        color:black;
+    }
+
+}
+
+
+
 #social-handle{
     text-align: center;
     margin-top: -3vh;
@@ -154,16 +128,18 @@ body{
 
 }
 #about{
+    margin-top:10%;
     width: 100%;
     height: auto;
     position: relative;
+    z-index:1;
 }
 #my-img{
     height: 12rem;
     width: 12rem;
     margin: auto;
     margin-top: -14vh;
-    
+   
     
 
 }
@@ -180,6 +156,7 @@ body{
     text-decoration: #2857a4;
     display: flex;
     justify-content: center;
+    
 }
 
 
@@ -628,18 +605,13 @@ form .button{
 
 /* header */
 @media screen and (max-width:768px){
-    .horizontal-list{
-        display:flex;
-        flex-wrap:wrap;
-        
-    }
+    
     #header-name {
         font-size: 50px;
         height: fit-content;
         margin-top:-10px
     }
     #social-handle{
-        margin-top:-20px;
         font-size: 50px;
     }
 }
