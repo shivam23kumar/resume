@@ -20,6 +20,8 @@ body{
 .navbar {
     display: flex;
     justify-content: space-between;
+    margin-left:20px;
+    margin-right:20px;
     
 }
 
@@ -42,7 +44,9 @@ body{
     justify-content: space-around;
     align-items: center;
 }
-
+.nav-menu>li{
+    list-style-type:none;
+}
 .nav-item {
     margin-left: 2rem;
     text-decoration:hidden;
@@ -53,11 +57,20 @@ body{
     font-size: 1.6rem;
     font-weight: 400;
     color: #475569;
+    text-decoration:none;
 }
 
+.nav-logo>img{
+    margin-top:6px;
+    border-radius:100%;
 
-
-
+}
+#header-name{
+    font-weight:800;
+    color:black;
+    padding:15px;
+    font-size:40px;
+}
 
 @media only screen and (max-width: 768px) {
     .nav-menu {
