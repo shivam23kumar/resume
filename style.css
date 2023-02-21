@@ -629,8 +629,8 @@ form .button{
 /* header */
 @media screen and (max-width:768px){
     .body-header{
-        width:auto;
-        margin:50px;
+        height:auto;
+        
     }
     .horizontal-list{
         display:flex;
