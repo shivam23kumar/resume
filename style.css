@@ -628,10 +628,6 @@ form .button{
 
 /* header */
 @media screen and (max-width:768px){
-    .body-header{
-        height:auto;
-        
-    }
     .horizontal-list{
         display:flex;
         flex-wrap:wrap;
@@ -643,6 +639,7 @@ form .button{
         margin-top:-10px
     }
     #social-handle{
+        margin-top:-20px;
         font-size: 50px;
     }
 }
