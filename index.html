@@ -294,7 +294,7 @@
                         <input name="Name" type="text" id="name" class="form-control" placeholder="Your Name..."><br>
                         <input name="Email" type="mail" id="mail" class="form-control" placeholder="Your Email"><br>
                         <textarea name="Message" id="message" class="form-control" placeholder="Message" cols="30" rows="5"></textarea><br>
-                        <button name="email" class="button">Send</button>
+                        <button name="email" class="button" onclick="submission()">Send</button>
                     </form>
                     
 
@@ -315,6 +315,10 @@
         </section>
 
     </main>
-    <script  defer src="index.js"></script>
+    <script  defer src="index.js">
+        function submission() {
+            alert("Details submitted. Thanks!");
+        }
+    </script>
 </body>
 </html>
