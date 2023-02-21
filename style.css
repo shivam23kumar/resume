@@ -628,10 +628,14 @@ form .button{
 
 /* header */
 @media screen and (max-width:768px){
+    .body-header{
+        width:auto;
+        margin:20px;
+    }
     .horizontal-list{
         display:flex;
         flex-wrap:wrap;
-        margin-left:-10px;
+        
     }
     #header-name {
         font-size: 50px;
