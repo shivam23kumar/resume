@@ -99,6 +99,7 @@ body{
     .hamburger {
         display: block;
         cursor: pointer;
+        padding-top:6px;
     }
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
