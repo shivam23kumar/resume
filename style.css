@@ -6,7 +6,7 @@ body{
     margin-top: -60px;
     height: 65vh;
     opacity: 0.9;
-    background-image: url("./pictures/dark-wallpapers.jpg");
+    //background-image: url("./pictures/dark-wallpapers.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
