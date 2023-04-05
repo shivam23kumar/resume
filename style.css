@@ -75,7 +75,7 @@ body{
     font-size:40px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
     .nav-logo>img{
         margin-left:30px;
     }
@@ -105,7 +105,7 @@ body{
     .hamburger {
         display: block;
         cursor: pointer;
-        padding-top:6px;
+        padding-top:20px;
     }
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
@@ -579,7 +579,7 @@ form .button{
 
 /* workex */
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:900px) {
     #timeline-divider{
         left: 8%;
     }
@@ -595,7 +595,7 @@ form .button{
     }
 }
 /* education */
-@media screen and (max-width:768px) {
+@media screen and (max-width:900px) {
     #timeline-divider{
         left: 8%;
     }
@@ -615,7 +615,7 @@ form .button{
 
 /* skills */
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:900px) {
     .skill-progress{
         margin: 8px;
     }
@@ -628,7 +628,7 @@ form .button{
 }
 
 /* header */
-@media screen and (max-width:768px){
+@media screen and (max-width:900px){
     
     #header-name {
         font-size: 50px;
@@ -641,20 +641,24 @@ form .button{
 }
 
 /* aboutme */
-@media only screen and (max-width:768px){
+@media only screen and (max-width:900px){
+    
     #about-me{
-        width: 80%;
-        margin: 40px 50px 30px 50px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin: 2.5rem 3rem;
+        padding: 1rem;
     }
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:900px){
    #my-img{
        margin-top: 8vh;
    }
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:900px){
     .contact-display{
         display:flex;
         flex-wrap:wrap;
@@ -675,7 +679,7 @@ form .button{
 }
 
 
-@media screen and (max-width:768px){
+@media screen and (max-width:900px){
     main{
         overflow-x:hidden;
     }
